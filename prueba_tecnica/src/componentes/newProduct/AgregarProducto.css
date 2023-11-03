@@ -1,0 +1,87 @@
+/* AgregarProducto.css */
+
+/* Estilo para el contenedor principal */
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 1.5rem; /* Achicamos el padding para reducir el largo */
+    background-color: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+  }
+  
+  /* Estilo para los títulos */
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Estilo para los campos de entrada y etiquetas */
+  label {
+    display: block;
+    margin-bottom: 0.25rem; /* Reducimos el espacio entre etiquetas */
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 0.25rem; /* Achicamos el padding para reducir el largo */
+    border: 1px solid #000000;
+    border-radius: 4px;
+    margin-bottom: 0.5rem; /* Reducimos el espacio entre campos */
+  }
+  
+  /* Estilo para los mensajes de error */
+  span {
+    color: #EF4444;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+  }
+  
+  /* Estilo para el botón de enviar (Crear Producto) */
+  button[type="submit"] {
+    background-color: #34D399; /* Cambiamos el color a verde claro */
+    color: #FFFFFF;
+    padding: 0.5rem 1rem;
+    border: 1px solid #000000; /* Agregamos bordes negros */
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Agregamos sombra */
+    text-decoration: none; /* Quitamos el subrayado */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #22BB77; /* Cambiamos el color en estado de hover */
+  }
+  
+  /* Estilo para el enlace "Volver al Inicio" */
+  a {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #34D399; /* Cambiamos el color a verde claro */
+    text-decoration: none;
+    border: 1px solid #000000; /* Agregamos bordes negros */
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Agregamos sombra */
+  }
+  
+  a:hover {
+    text-decoration: none; /* Quitamos el subrayado en estado de hover */
+  }
+/* Estilo para los campos de entrada y etiquetas */
+label {
+    display: block;
+    margin-bottom: 0.25rem; /* Reducimos el espacio entre etiquetas */
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 60%; /* Reducimos el ancho a un 60% del contenedor */
+    padding: 0.25rem;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+  }
+    

@@ -1,0 +1,48 @@
+/* Home.css */
+
+/* Estilo del contenedor principal */
+.home-container {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+  /* Estilo de las secciones */
+  .home-section {
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 1rem;
+  }
+  
+  /* Estilo de título de sección */
+  .section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Estilo del texto de descripción */
+  .section-description {
+    font-size: 1rem;
+    color: #000;
+  }
+  
+  /* Estilo de enlaces */
+  /* Home.css */
+
+/* Estilo de enlaces */
+.section-link {
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  /* Estilo de enlace al pasar el mouse */
+  .section-link:hover {
+    text-decoration: none; /* Anula la decoración de texto al pasar el mouse */
+  }
+  
