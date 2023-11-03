@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { jsPDF } from 'jspdf';
+import  jsPDF  from 'jspdf';
 import { Link } from 'react-router-dom';
 import 'jspdf-autotable';
 import "./BuscarProducto.css"
